@@ -1,8 +1,4 @@
-"""
-Financial Analytics & Derivatives Project
-Portfolio Optimization using Efficient Frontier & Monte Carlo
-Option Pricing with Black-Scholes and Put-Call Parity Analysis
-"""
+
 
 import pandas as pd
 import numpy as np
@@ -19,7 +15,7 @@ warnings.filterwarnings('ignore')
 plt.style.use('seaborn-v0_8-darkgrid')
 sns.set_palette("husl")
 
-# ==================== DATA COLLECTION ====================
+# DATA COLLECTION
 
 def generate_synthetic_data(tickers, start_date, end_date):
     """Generate synthetic stock data for demonstration"""
@@ -73,7 +69,7 @@ def fetch_stock_data(tickers, start_date, end_date):
     
     return stock_data
 
-# ==================== PORTFOLIO OPTIMIZATION ====================
+# PORTFOLIO OPTIMIZATION
 
 def calculate_portfolio_metrics(weights, returns, cov_matrix):
     """Calculate portfolio return and risk"""
@@ -120,7 +116,7 @@ def generate_efficient_frontier(returns, cov_matrix, num_portfolios=10000):
     
     return results
 
-# ==================== MONTE CARLO SIMULATION ====================
+# MONTE CARLO SIMULATION
 
 def monte_carlo_simulation(stock_data, optimal_weights, num_simulations=1000, days=252):
     """Run Monte Carlo simulation for portfolio"""
@@ -142,7 +138,7 @@ def monte_carlo_simulation(stock_data, optimal_weights, num_simulations=1000, da
     
     return simulation_results
 
-# ==================== BLACK-SCHOLES MODEL ====================
+# BLACK-SCHOLES MODEL
 
 def black_scholes_call(S, K, T, r, sigma):
     """Calculate Black-Scholes call option price"""
@@ -190,7 +186,7 @@ def calculate_greeks(S, K, T, r, sigma):
         'Call Rho': call_rho, 'Put Rho': put_rho
     }
 
-# ==================== PUT-CALL PARITY ====================
+# PUT-CALL PARITY 
 
 def check_put_call_parity(S, K, T, r, call_price, put_price):
     """Check Put-Call Parity and detect arbitrage opportunities"""
@@ -209,7 +205,7 @@ def check_put_call_parity(S, K, T, r, call_price, put_price):
         'Arbitrage': abs(difference) > 0.01
     }
 
-# ==================== VISUALIZATION FUNCTIONS ====================
+# VISUALIZATION FUNCTIONS
 
 def plot_stock_prices(stock_data, save_path='plots/stock_prices.png'):
     """Plot historical stock prices"""
@@ -473,7 +469,7 @@ def plot_put_call_parity(S_range, K, T, r, sigma,
     plt.close()
     print(f"Saved: {save_path}")
 
-# ==================== MAIN EXECUTION ====================
+# MAIN EXECUTION
 
 def main():
     """Main execution function"""
