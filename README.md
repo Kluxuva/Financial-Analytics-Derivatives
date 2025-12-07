@@ -2,20 +2,6 @@
 
 A comprehensive financial analysis project implementing portfolio optimization using Efficient Frontier & Monte Carlo simulation, along with option pricing analysis using Black-Scholes model and Put-Call Parity arbitrage detection.
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Status](https://img.shields.io/badge/Status-Active-success)
-
-## 📋 Table of Contents
-- [Overview](#overview)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Components](#project-components)
-- [Results & Visualizations](#results--visualizations)
-- [Technical Details](#technical-details)
-- [Future Enhancements](#future-enhancements)
-- [License](#license)
 
 ## 🎯 Overview
 
@@ -275,47 +261,7 @@ Sharpe Ratio = (Rₚ - Rₓ) / σₚ
 4. Constant risk-free rate and volatility
 5. Lognormal stock price distribution
 
-## 📄 License
-
-This project is licensed under the MIT License - see below:
-
-```
-MIT License
-
-Copyright (c) 2024 Financial Analytics & Derivatives
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📧 Contact
-
-For questions or suggestions, please open an issue on GitHub.
-
----
-
-**Note**: This project is for educational purposes only. Not financial advice. Always consult with financial professionals before making investment decisions.
-
-**Data Source**: Historical stock data provided by [Stooq](https://stooq.com/)
+[Stooq](https://stooq.com/)
 
 ---
 
