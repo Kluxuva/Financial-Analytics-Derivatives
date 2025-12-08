@@ -80,7 +80,7 @@ T = 0.25  # Time to maturity (years)
 r = 0.05  # Risk-free rate
 ```
 
-## 🔬 Project Components
+##  Project Components
 
 ### 1. Data Collection
 - Fetches historical stock data from Stooq
@@ -141,7 +141,7 @@ Detects arbitrage when:
 - If C - P > S₀ - PV(K): Sell call, buy put, buy stock, borrow PV(K)
 - If C - P < S₀ - PV(K): Buy call, sell put, sell stock, lend PV(K)
 
-## 📈 Results & Visualizations
+##  Results & Visualizations
 
 ### Sample Output
 
@@ -217,8 +217,3 @@ Sharpe Ratio = (Rₚ - Rₓ) / σₚ
 4. Constant risk-free rate and volatility
 5. Lognormal stock price distribution
 
-[Stooq](https://stooq.com/)
-
----
-
-Made with ❤️ for financial analysis and learning
