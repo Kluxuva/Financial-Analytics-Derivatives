@@ -46,7 +46,7 @@ This project demonstrates advanced financial analytics techniques combining port
 - Python 3.8 or higher
 - pip package manager
 
-## 📊 Usage
+##  Usage
 
 The script automatically performs all analyses and generates visualizations:
 
@@ -189,20 +189,8 @@ Difference: $0.0001
 - Efficient matrix calculations
 - Minimized loop iterations
 
-## 🔮 Future Enhancements
 
-- [ ] Add real-time data streaming
-- [ ] Implement Value at Risk (VaR) calculations
-- [ ] Add more portfolio optimization strategies (min variance, risk parity)
-- [ ] Include American option pricing (Binomial tree method)
-- [ ] Add backtesting framework
-- [ ] Implement implied volatility calculation
-- [ ] Add transaction costs and slippage
-- [ ] Create interactive dashboard with Plotly
-- [ ] Add machine learning predictions
-- [ ] Implement multi-asset option strategies (straddles, spreads, etc.)
-
-## 📚 Key Concepts
+## Key Concepts
 
 ### Modern Portfolio Theory (MPT)
 - Developed by Harry Markowitz
