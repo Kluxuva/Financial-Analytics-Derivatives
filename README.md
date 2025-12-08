@@ -3,7 +3,7 @@
 A comprehensive financial analysis project implementing portfolio optimization using Efficient Frontier & Monte Carlo simulation, along with option pricing analysis using Black-Scholes model and Put-Call Parity arbitrage detection.
 
 
-## 🎯 Overview
+## Overview
 
 This project demonstrates advanced financial analytics techniques combining portfolio theory and derivatives pricing:
 
@@ -13,7 +13,7 @@ This project demonstrates advanced financial analytics techniques combining port
 4. **Black-Scholes Pricing**: Calculates theoretical option prices and Greeks
 5. **Put-Call Parity**: Detects pricing inefficiencies and arbitrage opportunities
 
-## ✨ Features
+## Features
 
 ### Portfolio Analysis
 - ✅ **10-Stock Portfolio**: Analysis of major US stocks (AAPL, MSFT, GOOGL, AMZN, TSLA, JPM, V, JNJ, WMT, PG)
@@ -40,29 +40,11 @@ This project demonstrates advanced financial analytics techniques combining port
 - **Put-Call Parity**: Validation and arbitrage detection
 - **Sensitivity Analysis**: Option prices across different stock prices
 
-## 🚀 Installation
+## Installation
 
 ### Prerequisites
 - Python 3.8 or higher
 - pip package manager
-
-### Setup
-
-1. **Clone the repository**
-```bash
-git clone https://github.com/Kluxuva/Financial-Analytics-Derivatives.git
-cd Financial-Analytics-Derivatives
-```
-
-2. **Install dependencies**
-```bash
-pip install -r requirements.txt
-```
-
-3. **Run the analysis**
-```bash
-python financial_analysis.py
-```
 
 ## 📊 Usage
 
@@ -186,20 +168,6 @@ Right Side (S-PV(K)): $0.56
 Difference: $0.0001
 ✓ No arbitrage - Market is efficient
 ```
-
-### Visualization Examples
-
-All plots are saved in high resolution (300 DPI) in the `plots/` directory:
-
-1. **stock_prices.png** - Historical price trends
-2. **returns_distribution.png** - Return distributions for each stock
-3. **correlation_matrix.png** - Cross-stock correlations
-4. **efficient_frontier.png** - Risk-return optimization
-5. **portfolio_allocation.png** - Optimal weights visualization
-6. **monte_carlo_simulation.png** - Simulated portfolio paths
-7. **option_prices.png** - Call/Put prices vs stock price
-8. **option_greeks.png** - Greeks sensitivity analysis
-9. **put_call_parity.png** - Parity validation and arbitrage detection
 
 ## 🛠 Technical Details
 
